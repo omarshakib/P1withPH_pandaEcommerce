@@ -238,6 +238,8 @@ body {
     border-radius: 10px;
     justify-content: space-around;
     transition: 0.2s;
+    font-family: 'poppins';
+    color: #ffffff;
 }
 .Catagories-section:hover{
     transform: translate(3px,-8px);
