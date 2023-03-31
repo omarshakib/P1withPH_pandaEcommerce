@@ -80,13 +80,6 @@ body {
     outline: none;
 }
 
-.search-box input::placeholder {
-    border: none;
-}
-
-.search-box input:active {
-    color: #000;
-}
 
 .search-box img {
     position: relative;
@@ -321,6 +314,7 @@ justify-content: space-between;
 }
 .cards img{
     width: 100%;
+    transition: 0.2s;
 }
 
 .cards h1{
@@ -332,9 +326,29 @@ justify-content: space-between;
     font-size: 15px;
 }
 
-.cards1{
-   
+.cards3 img:hover{
+    width: 800px;
+    height: 650px;
+    position: absolute;
+    right: 200px;
+ 
+    
 }
+.cards2 img:hover{
+    width: 800px;
+    height: 650px;
+    position: absolute;
+    left: -250px;
+ 
+    
+}
+.cards1 img:hover{
+    width: 800px;
+    height: 650px;
+    position: absolute;
+    left: 150px; 
+}
+
 
 .button{
     display: flex;
@@ -411,7 +425,9 @@ letter-spacing: 1px;
     border: none;
     padding:15px 330px 15px 20px;
     border-radius: 5px;
+    outline: none;
 }
+
 .s6_btn button{
     position: relative;
     left: -10px;
@@ -423,8 +439,16 @@ letter-spacing: 1px;
     font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
+    cursor: pointer;
+transition: 0.3s ease;
+}
+
+.s6_btn button:hover{
+    background: #000000;
+    color: rgb(255, 255, 255);
 }
 
 footer{
    text-align: center;
 }
+
